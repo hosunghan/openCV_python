@@ -3,8 +3,8 @@ import cv2
 
 
 # 영상 불러오기
-img1 = cv2.imread('cat.bmp', cv2.IMREAD_GRAYSCALE)
-img2 = cv2.imread('cat.bmp', cv2.IMREAD_COLOR)
+img1 = cv2.imread('/Users/hosunghan/workplace/OpenCV_python/ch02/cat.bmp', cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread('/Users/hosunghan/workplace/OpenCV_python/ch02/cat.bmp', cv2.IMREAD_COLOR)
 
 if img1 is None or img2 is None:
     print('Image load failed!')
